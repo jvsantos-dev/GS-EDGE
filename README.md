@@ -12,3 +12,22 @@ Componentes e Circuito
     Display LCD: Exibirá informações de geração e consumo.
     LEDs: Indicadores visuais (verde para geração suficiente, vermelho para geração insuficiente).
     Atuador (relé): Simula o gerenciamento de dispositivos conectados, ativando-os ou desativando-os conforme a disponibilidade de energia.
+Etapa 4: Resultados Esperados e Impacto
+
+Com esse sistema, espera-se:
+
+    Redução no Desperdício: O dispositivo ajusta o consumo de energia conforme a geração, evitando uso desnecessário.
+    Monitoramento Efetivo: Informações em tempo real sobre geração e consumo, tornando a gestão de energia mais consciente e econômica.
+    Sustentabilidade: Um passo para maior eficiência energética, incentivando o uso otimizado de fontes renováveis.
+
+README para o Repositório Git
+
+    Título: Monitoramento e Otimização de Energia com Arduino
+    Descrição: Sistema de monitoramento de geração e consumo de energia renovável com ajuste automático do consumo usando Arduino.
+    Componentes: Arduino Uno, Sensor de Luz, Sensor de Corrente, Display LCD, LEDs, Relé.
+    Como Usar: Suba o código no Wokwi com os componentes montados, monitorando a eficiência energética.
+    Objetivo: Reduzir o desperdício energético e monitorar o uso local de fontes renováveis.
+
+Encerramento
+
+Para finalizar, essa aplicação de baixo custo e com controle autossuficiente ajuda pequenas instalações solares a monitorar e otimizar seu consumo.

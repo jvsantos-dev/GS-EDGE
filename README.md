@@ -31,3 +31,13 @@ README para o Repositório Git
 Encerramento
 
 Para finalizar, essa aplicação de baixo custo e com controle autossuficiente ajuda pequenas instalações solares a monitorar e otimizar seu consumo.
+from google.colab import files
+files.upload()
+pip install kaggle -q
+!mkdir -p ~/.kaggle
+!cp kaggle.json ~/.kaggle
+!chmod 600 ~/.kaggle/kaggle.json
+!kaggle datasets list
+%cd /content/
+
+!kaggle competitions download -c Seattle Weather
